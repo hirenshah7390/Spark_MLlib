@@ -1,6 +1,4 @@
-/**
-  * Created by Mayanka on 20-Mar-16.
-  */
+
 
 import java.io.File
 
@@ -12,9 +10,6 @@ import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by Mayanka on 20-Mar-16.
-  */
 object AudioFeature extends Enumeration {
   type AudioFeature = Value
   val Spectral_Centroid, Spectral_Rolloff_Point, Spectral_Flux, Compactness, Spectral_Variability, Root_Mean_Square, Fration_of_Low_Energy_Windows, Zero_Crossings, Strongest_Beat, Beat_Sum, MFCC, ConstantQ, LPC, Method_of_Moments, Peak_Detection, Area_Method_of_MFCCs = Value
