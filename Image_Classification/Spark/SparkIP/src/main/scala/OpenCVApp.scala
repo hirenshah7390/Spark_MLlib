@@ -1,6 +1,4 @@
-/**
- * Created by pradyumnad on 10/07/15.
- */
+
 
 import edu.umkc.ic.ImageUtils
 import org.bytedeco.javacpp.opencv_core._
