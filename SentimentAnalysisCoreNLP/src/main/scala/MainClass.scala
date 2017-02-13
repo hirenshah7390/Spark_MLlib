@@ -1,6 +1,4 @@
-/**
- * Created by Mayanka on 23-Jul-15.
- */
+
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.twitter.TwitterUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
