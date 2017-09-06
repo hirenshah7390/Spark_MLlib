@@ -3,9 +3,7 @@ import org.apache.spark.streaming.twitter.TwitterUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import spire.std.string
 
-/**
- * Created by pradyumnad on 07/07/15.
- */
+
 object TwitterStreaming {
 
   def main(args: Array[String]) {
